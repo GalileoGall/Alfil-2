@@ -187,4 +187,9 @@ footer ul li {
         font-size: 40px;
         line-height: 46px;
     }
+    .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu .dropdown-menu {
+      display: block;
+      position: relative;
+      left: calc(3% + 1px);
+    }
 }

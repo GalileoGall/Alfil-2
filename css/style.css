@@ -7294,6 +7294,9 @@ header.sticky .navbar.disable-fixed {
   border-bottom: 1px solid rgba(23, 23, 23, 0.1);
   padding: 17px 20px;
 }
+.b-bottom{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
 .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a i {
   font-size: 19px;
 }
@@ -7314,7 +7317,6 @@ header.sticky .navbar.disable-fixed {
   left: calc(100% + 1px);
   top: 0px;
 }
-
 
 .navbar .navbar-nav .dropdown.dropdown-with-icon .dropdown-menu {
   box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.1);

@@ -78,8 +78,8 @@
                   <li class="dropdown">
                     <a href="javascript:void(0);"><i class="bi bi-briefcase"></i>Trámites CIS</a>
                     <ul class="dropdown-menu mobile2 ">
-                      <li><a href="#">Certificado de calidad del agua</a></li>
-                      <li><a href="#">Concesión para la extracción de materiales</a></li>
+                      <li><a class="b-bottom" href="#">Certificado de calidad del agua</a></li>
+                      <li><a class="b-bottom" href="#">Concesión para la extracción de materiales</a></li>
                       <li><a href="#">Consultas al REPDA y expedición de certificados</a></li>
                     </ul>
                   </li>
@@ -89,9 +89,9 @@
               <!-- inicia legal -->
               <li class="nav-item dropdown dropdown-with-icon-style02">
                 <a href="#" class="nav-link">Legal</a>
-                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button"
+                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink2" role="button"
                   data-bs-toggle="dropdown" aria-expanded="false"></i>
-                <ul class="dropdown-menu mobile" aria-labelledby="navbarDropdownMenuLink">
+                <ul class="dropdown-menu mobile" aria-labelledby="navbarDropdownMenuLink2">
                   <li><a href="#"><i class="bi bi-clipboard-data"></i>Corporativos</a></li>
                   <li><a href="#"><i class="bi bi-clipboard-data"></i>Civil y mercantil</a></li>
                   <li><a href="#"><i class="bi bi-clipboard-data"></i>Laboral</a></li>
@@ -101,14 +101,40 @@
               <!-- inicia contable -->
               <li class="nav-item dropdown dropdown-with-icon-style02">
                 <a href="#" class="nav-link">Contable</a>
-                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button"
+                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink3" role="button"
                   data-bs-toggle="dropdown" aria-expanded="false"></i>
-                <ul class="dropdown-menu mobile" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a href="#"><i class="bi bi-clipboard-data"></i>Consultoria contable y fiscal</a></li>
-                  <li><a href="#"><i class="bi bi-clipboard-data"></i>Auditoría</a></li>
+                <ul class="dropdown-menu mobile" aria-labelledby="navbarDropdownMenuLink3">
+                  <li class="dropdown">
+                    <a href="javascript:void(0);"><i class="bi bi-briefcase"></i>Consultoria contable y fiscal</a>
+                    <ul class="dropdown-menu mobile2 ">
+                      <li><a href="#">Contabilidad financiera</a></li>
+                      <li><a href="#">Asesoría fiscal</a></li>
+                      <li><a href="#">Defensa fiscal</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="javascript:void(0);"><i class="bi bi-briefcase"></i>Auditorías</a>
+                    <ul class="dropdown-menu mobile2 ">
+                      <li><a href="#">Auditoría fiscal</a></li>
+                      <li><a href="#">Auditoría financiera</a></li>
+                      <li><a href="#">Auditoría de Seguridad y Contribuciones Locales</a></li>
+                      <li><a href="#">Auditoría de cumplimiento</a></li>
+                      <li><a href="#">Auditoría interna</a></li>
+                      <li><a href="#">Valuación de activos intangibles</a></li>
+                      <li><a href="#">Precios de transferencia</a></li>
+                    </ul>
+                  </li>
+                  
                   <li><a href="#"><i class="bi bi-clipboard-data"></i>Nóminas</a></li>
                   <li><a href="#"><i class="bi bi-clipboard-data"></i>Prevención y compliance laboral</a></li>
-                  <li><a href="#"><i class="bi bi-clipboard-data"></i>Consultoría estratégica</a></li>
+                  <li class="dropdown">
+                    <a href="javascript:void(0);"><i class="bi bi-briefcase"></i>Consultoría estratégica</a>
+                    <ul class="dropdown-menu mobile2 ">
+                      <li><a class="b-bottom" href="#">Cambios estratégicos de negocio</a></li>
+                      <li><a class="b-bottom" href="#">Ciberseguridad</a></li>
+                      <li><a href="#">Transformacion digital</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
               <!-- termina contable -->
@@ -993,10 +1019,10 @@
   <script type="text/javascript" src="js/vendors.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
   <script>
-    const mobile = document.querySeletor(".mobile");
+    const mobile = document.querySelector(".mobile");
     const tieneShow = mobile.classList.contains("show");
     if (tieneShow) {
-      const mobile2 = document.querySeletor(".mobile2");
+      const mobile2 = document.querySelector(".mobile2");
       mobile2.classList.add("show");
     }
 
