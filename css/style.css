@@ -2462,22 +2462,22 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
 }
 /* Magic cursor */
 .magic-cursor {
-  cursor: none;
+  cursor: default;
 }
-#ball-cursor {
+/* #ball-cursor {
   position: fixed;
   width: 70px;
   height: 70px;
   border: 0 !important;
-  background-color: var(--dark-gray);
+  background-color: var(--golden-yellow);
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
   border-radius: 100%;
   opacity: 0 !important;
   overflow: hidden;
   transition: opacity 0.3s ease-in-out 0.1s;
   text-align: center;
-}
-#ball-cursor:before, #ball-cursor:after {
+} */
+/* #ball-cursor:before, #ball-cursor:after {
   content: "\e843";
   font-family: feather !important;
   color: var(--white);
@@ -2491,7 +2491,7 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
   content: "\e844";
   right: 12px;
   left: auto;
-}
+} */
 .magic-cursor-wrapper {
   position: absolute;
   left: 0;

@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100;300;400;500;600;700;800&display=swap');
 /* variable */
 :root {     
-    --base-color: #5758D6;
+    --base-color: #185a8f;
     --dark-gray: #262b35;
     --medium-gray:#868d98;
     --primary-font: 'Be Vietnam', sans-serif;
@@ -192,4 +192,7 @@ footer ul li {
       position: relative;
       left: calc(3% + 1px);
     }
+}
+.btn.btn-color-alfil{
+    background-color: #185a8f;
 }
